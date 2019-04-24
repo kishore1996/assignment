@@ -3,7 +3,57 @@
     <wm-top-nav name="topnav" content="topnav"></wm-top-nav>
     <wm-content name="content">
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
-        <wm-page-content columnwidth="8" paddingleft="15" paddingright="15" name="mainContent">
+        <wm-page-content columnwidth="8" name="mainContent" padding="unset 15px">
+            <wm-label padding="unset 0.5em" name="label1" caption="Model Application Form" width="100%" fontsize="24" fontweight="bold" textalign="center"></wm-label><br><br>
+            <wm-label padding="unset 0.5em" name="label2" caption="Personal Details" fontweight="bold" fontsize="20" textdecoration="underline"></wm-label><br><br>
+            <wm-composite name="composite1">
+                <wm-label class="col-md-3 control-label" name="label3" caption="Full Name"></wm-label>
+                <wm-container class="col-md-9" name="container1">
+                    <wm-text name="text1"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="composite2">
+                <wm-label class="col-md-3 control-label" name="label4" caption="Birth Date"></wm-label>
+                <wm-container class="col-md-9" name="container2">
+                    <wm-text name="text2"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="composite4">
+                <wm-label class="col-md-3 control-label" name="label6" caption="Address"></wm-label>
+                <wm-container class="col-md-9" name="container4">
+                    <wm-textarea name="textarea1"></wm-textarea>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="composite5">
+                <wm-label class="col-md-3 control-label" name="label7" caption="State"></wm-label>
+                <wm-container class="col-md-9" name="container5">
+                    <wm-text name="text4"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="composite6">
+                <wm-label class="col-md-3 control-label" name="label8" caption="Mobile Phone"></wm-label>
+                <wm-container class="col-md-9" name="container6">
+                    <wm-text name="text5"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="composite7">
+                <wm-label class="col-md-3 control-label" name="label9" caption="Home Phone"></wm-label>
+                <wm-container class="col-md-9" name="container7">
+                    <wm-text name="text6"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="composite8">
+                <wm-label class="col-md-3 control-label" name="label10" caption="Email"></wm-label>
+                <wm-container class="col-md-9" name="container8">
+                    <wm-text name="text7"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-label padding="unset 0.5em" name="label11" caption="Physical Details" width="100%" fontsize="20" fontweight="bold" textdecoration="underline"></wm-label><br><br>
+            <wm-label padding="unset 0.5em" name="label12" caption="Height:" fontweight="bold"></wm-label>
+            <wm-label padding="unset 0.5em unset 5em" name="label12_1" caption="Weight:" fontweight="bold"></wm-label>
+            <wm-label padding="unset 0.5em unset 5em" name="label14" fontweight="bold" caption="Bust:"></wm-label>
+            <wm-label padding="unset 0.5em unset 5em" name="label15" caption="Waist:" fontweight="bold"></wm-label>
+            <wm-label padding="unset 0.5em unset 5em" name="label17" caption="Hips:" fontweight="bold"></wm-label>
         </wm-page-content>
         <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>
     </wm-content>
